@@ -13,7 +13,7 @@
   <a href="mailto:wandermaci3l@gmail.com">
     <img src="https://img.shields.io/badge/Email-wandermaci3l%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  <a href="https://linkedin.com/in/" target="_blank">
+  <a href="https://www.linkedin.com/in/wander-silva-andrade/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Perfil-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=WanderSlv&label=Visualiza%C3%A7%C3%B5es&color=bd93f9&style=for-the-badge" alt="Contador de Visitas" />
