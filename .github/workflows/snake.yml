@@ -37,6 +37,10 @@ jobs:
           tetromino_count: "5"
           palette: "auto"
 
+      - name: Make Tetris animation loop infinitely
+        run: |
+          sed -i 's/repeatCount="1"/repeatCount="indefinite"/g' dist/contribution-graph-tetris.svg
+
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
