@@ -100,13 +100,13 @@
 
 ---
 
-### 🐍 Snake Contribution Graph
+### 🕹️ Tetris Contribution Graph
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WanderSlv/WanderSlv/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WanderSlv/WanderSlv/output/github-contribution-grid-snake.svg">
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/WanderSlv/WanderSlv/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WanderSlv/WanderSlv/output/contribution-graph-tetris.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WanderSlv/WanderSlv/output/contribution-graph-tetris.svg">
+    <img alt="Tetris Contribution Graph" src="https://raw.githubusercontent.com/WanderSlv/WanderSlv/output/contribution-graph-tetris.svg">
   </picture>
 </div>
 

@@ -1,4 +1,4 @@
-name: Generate Snake Game
+name: Generate Contribution Art
 
 on:
   schedule:
@@ -18,6 +18,8 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - uses: actions/checkout@v4
+
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -25,6 +27,15 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#bd93f9&color_dots=#282a36,#44475a,#6272a4,#ff79c6,#50fa7b
+
+      - name: Generate Tetris contribution graph
+        uses: leereilly/contribution-graph-art@v1
+        with:
+          github_user_name: WanderSlv
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output_path: dist/contribution-graph-tetris.svg
+          tetromino_count: "5"
+          palette: "auto"
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
